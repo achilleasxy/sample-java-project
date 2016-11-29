@@ -113,6 +113,25 @@ public class SampleJavaProject implements Runnable {
 
     }
 
+	public static void duplicatedMethod(){
+
+       int zero=10;
+        if(zero==1){System.println("zero")}
+        else if(zero==1){System.out.println("zero");}
+        else if(zero==2){System.out.println("zero");}
+        else if(zero==3){System.out.println("zero");}
+        else if(zero==4){System.out.println("zero");}
+        else if(zero==5){System.out.println("zero");}
+        else if(zero==6){System.out.println("zero");}
+        else if(zero==7){System.out.println("zero");}
+        else if(zero==8){System.out.println("zero");}
+        else if(zero==9){System.out.println("zero");}
+        else if(zero==10){System.out.println("zero");}
+        else if(zero==11){System.out.println("zero");}
+        else if(zero==12){System.out.println("zero");}
+        else if(zero==13){System.out.println("zero");}
+	}
+
     @Override
     public final void run() {
         do {
