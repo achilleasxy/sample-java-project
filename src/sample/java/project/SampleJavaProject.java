@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.Setter;
 
-//a comment
+//another comment
 
 /**
  * The main class of the application. It contains the main() method,
