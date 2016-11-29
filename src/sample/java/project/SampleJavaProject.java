@@ -87,7 +87,8 @@ public class SampleJavaProject implements Runnable {
         else if(zero==12){System.out.println("zero");}
         else if(zero==13){System.out.println("zero");}
         else if(zero==14){System.out.println("zero");}
-        else if(zero==15){System.out.println("zero");}
+        else if(zero==15){System.out.println("zero");
+		if(true){System.out.println("Branch");}}
         else {System.out.println("fail");}
 
     }
