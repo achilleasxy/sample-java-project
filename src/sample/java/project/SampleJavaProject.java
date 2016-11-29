@@ -38,6 +38,8 @@ public class SampleJavaProject implements Runnable {
      * Print the "Hello, world!" string.
      * @param args application input arguments
      */
+
+	//adding some comment
     public static void main(final String[] args) {
         /* Parse command line arguments. */
         SampleJavaProject sjp = new SampleJavaProject();
