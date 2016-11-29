@@ -10,7 +10,6 @@ import lombok.NonNull;
 import lombok.Setter;
 
 //commenting
-//comment
 
 /**
  * The main class of the application. It contains the main() method,
