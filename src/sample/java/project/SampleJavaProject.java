@@ -115,8 +115,11 @@ public class SampleJavaProject implements Runnable {
 
     }
 
-	public static void changedMethodName(){
-        int a = 1;
+	public static void renameMethod(){
+       	int a1 = 0;
+	int a2 =2;
+
+	 int a = 1;
         int b = 2;
        int zero = 0;
         if(zero==1){System.println("zero")}
