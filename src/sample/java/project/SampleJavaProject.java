@@ -1,5 +1,7 @@
 package sample.java.project;
 
+//More comments
+
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.ParameterException;
@@ -9,8 +11,8 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.Setter;
 
-//commenting
-
+//adding random comments
+//some more comments 
 /**
  * The main class of the application. It contains the main() method,
  * the first method called.
@@ -40,8 +42,6 @@ public class SampleJavaProject implements Runnable {
      * Print the "Hello, world!" string.
      * @param args application input arguments
      */
-
-	//adding some comment
     public static void main(final String[] args) {
         /* Parse command line arguments. */
         SampleJavaProject sjp = new SampleJavaProject();
@@ -55,6 +55,8 @@ public class SampleJavaProject implements Runnable {
             System.err.println("error: " + e.getMessage());
             new JCommander(new SampleJavaProject()).usage();
             System.exit(-1);
+
+
         }
 
         sjp.run();
@@ -66,12 +68,14 @@ public class SampleJavaProject implements Runnable {
     public final void sayHello() {
         System.out.printf("Hello, %s!%n", name);
         printThis();
-        printThat();
+        printThisForTheTestBranch()
+	printThis();
     }
 
-    public static void printThis(){
-
-       int zero=0;
+    public static void changedMethodName(){
+	int a = 1;
+	int b = 2;
+       int zero = 0;
         if(zero==1){System.println("zero")}
         else if(zero==1){System.out.println("zero");}
         else if(zero==2){System.out.println("zero");}
@@ -82,20 +86,15 @@ public class SampleJavaProject implements Runnable {
         else if(zero==7){System.out.println("zero");}
         else if(zero==8){System.out.println("zero");}
         else if(zero==9){System.out.println("zero");}
-        else if(zero==10){System.out.println("zero");}
-        else if(zero==11){System.out.println("zero");}
-        else if(zero==12){System.out.println("zero");}
-        else if(zero==13){System.out.println("zero");}
-        else if(zero==14){System.out.println("zero");}
-        else if(zero==15){System.out.println("zero");
-		if(true){System.out.println("Branch");}}
-        else {System.out.println("fail");}
-
+        else if(zero==10){System.out.println("zero");
+	if(zero==a){if (a==b){if(b==zero)}}}
+	}
+        
     }
 
-    public static void printThat(){
+    public static void printThisForTheTestBranch(){
 
-       int zero=10;
+       int zero=0;
         if(zero==1){System.println("zero")}
         else if(zero==1){System.out.println("zero");}
         else if(zero==2){System.out.println("zero");}
@@ -116,9 +115,10 @@ public class SampleJavaProject implements Runnable {
 
     }
 
-	public static void duplicatedMethod(){
-
-       int zero=10;
+	public static void changedMethodName(){
+        int a = 1;
+        int b = 2;
+       int zero = 0;
         if(zero==1){System.println("zero")}
         else if(zero==1){System.out.println("zero");}
         else if(zero==2){System.out.println("zero");}
@@ -129,11 +129,55 @@ public class SampleJavaProject implements Runnable {
         else if(zero==7){System.out.println("zero");}
         else if(zero==8){System.out.println("zero");}
         else if(zero==9){System.out.println("zero");}
-        else if(zero==10){System.out.println("zero");}
-        else if(zero==11){System.out.println("zero");}
-        else if(zero==12){System.out.println("zero");}
-        else if(zero==13){System.out.println("zero");}
+        else if(zero==10){System.out.println("zero"); 
+        if(zero==a){if (a==b){if(b==zero)}}}
+ 	}       }
 	}
+
+	public int tooManyArguments(int a, int b, int c, int d, int e, int f, int g)
+	{
+	return a;
+	}
+	public void insertChange(){
+
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+System.out.prtinln("violation");
+}
+
+	public void newRFcandidate1(){
+		
+		System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+              System.out.println("Too many lines in this");
+}
 
     @Override
     public final void run() {
