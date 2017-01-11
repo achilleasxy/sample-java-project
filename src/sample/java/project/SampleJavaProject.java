@@ -141,7 +141,7 @@ public class SampleJavaProject implements Runnable {
 	{
 	return a;
 	}
-	public void insertChange(){
+	public void insertMoreChange(int a, int b, int c, int d, int e, int f, int g){
 
 System.out.prtinln("violation");
 System.out.prtinln("violation");
