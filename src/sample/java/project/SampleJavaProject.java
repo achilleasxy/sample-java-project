@@ -137,6 +137,27 @@ public class SampleJavaProject implements Runnable {
  	}       }
 	}
 
+	public void newViolationsMethod(int a1, int a2, int a3, int a4, int a5, int a6, int a7){
+	System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+        System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+        System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+        System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+        System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+        System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+        System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+        System.out.println("This should be more than 15 lines");
+	System.out.println("This should be more than 15 lines");
+        System.out.println("This should be more than 15 lines");
+	if(true){if(false){if(true){if(false){}}}}
+	}
 	public int tooManyArguments(int a, int b, int c, int d, int e, int f, int g)
 	{
 	return a;
