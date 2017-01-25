@@ -1,8 +1,12 @@
 # Sample Java Project
 
 
-[![BCH compliance](https://bettercodehub.com/edge/badge/achilleasxy/sample-java-project)](https://bettercodehub.com)
+[![BCH compliance](http://e4992edc.ngrok.io/edge/badge/achilleasxy/sample-java-project)](https://google.com)
 
+
+
+
+IMAGE:
 
 <img src='https://bettercodehub.com/edge/badge/achilleasxy/sample-java-project'>
 
