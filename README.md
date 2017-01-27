@@ -1,9 +1,5 @@
 # Sample Java Project
 
-Badge from local:
-[![BCH compliance](http://e4992edc.ngrok.io/edge/badge/achilleasxy/sample-java-project)](https://google.com)
-
-Badge from BCH:
 [![BCH compliance](https://bettercodehub.com/edge/badge/achilleasxy/sample-java-project)](https://bettercodehub.com)
 
 This is a reference for setting up a new Ant-based Java project. It
