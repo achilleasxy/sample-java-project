@@ -4,5 +4,5 @@
 public class Example {
 
 	public int i;
-
+	public String test = "TEST";
 }
